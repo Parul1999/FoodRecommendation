@@ -2,7 +2,7 @@ import "./styles.css";
 import { useState } from "react";
 
 export default function App() {
-  var allFoods = {
+   var allFoods = {
     "North Indian": [
       {
         name: "Rajma Chawal",
@@ -10,6 +10,10 @@ export default function App() {
       },
       {
         name: "Palak Paneer",
+        rating: "4/5"
+      },
+      {
+        name: "Shahi Paneer",
         rating: "4/5"
       }
     ],
@@ -21,6 +25,10 @@ export default function App() {
       {
         name: "Idli",
         rating: "4.5/5"
+      },
+      {
+        name: "Uttpam",
+        rating: "4/5"
       }
     ],
     Chinese: [
@@ -31,6 +39,10 @@ export default function App() {
       {
         name: "Quick Noodles",
         rating: "3.5/5"
+      },
+      {
+        name: "Fried Rice",
+        rating: "4/5"
       }
     ]
   };
